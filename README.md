@@ -15,10 +15,10 @@
 ## Intro
 
 A filterable video-feed in React & Redux. 
-Forked and builds on https://www.github.com/dexmac/video-feed
-Uses Express as the backend to serve a video feed 
-that is comprised of - regular video URLs, Facebook & Youtube videos.
-The feed can then be filtered by the video type (URL / Facebook / Youtube).
+Forked and builds on https://www.github.com/dexmac/video-feed.  
+Uses Express as the backend to serve a video feed that is comprised of regular video URLs,  
+Facebook and Youtube videos.  
+The feed can then be filtered by the video type.  
 
 ![preview](video-feed.gif)
 
