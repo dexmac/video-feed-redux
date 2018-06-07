@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoFeedManager renders correctly && matches snapshot 1`] = `<div />`;
+
+exports[`VideoFeedManager when \`fetchVideos\` is run with mock data should also match the snapshot\` 1`] = `
+<VideoFeedManager>
+  <div />
+</VideoFeedManager>
+`;

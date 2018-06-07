@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoSourceSelect renders correctly && matches snapshot 1`] = `
+<Select
+  arrowRenderer={[Function]}
+  autosize={true}
+  backspaceRemoves={true}
+  backspaceToRemoveMessage="Press backspace to remove {label}"
+  clearAllText="Clear all"
+  clearRenderer={[Function]}
+  clearValueText="Clear value"
+  clearable={true}
+  closeOnSelect={true}
+  deleteRemoves={true}
+  delimiter=","
+  disabled={false}
+  escapeClearsValue={true}
+  filterOptions={[Function]}
+  ignoreAccents={true}
+  ignoreCase={true}
+  inputProps={Object {}}
+  isLoading={false}
+  joinValues={false}
+  labelKey="label"
+  matchPos="any"
+  matchProp="any"
+  menuBuffer={0}
+  menuRenderer={[Function]}
+  multi={true}
+  name="video-source-select"
+  noResultsText="No results found"
+  onBlurResetsInput={true}
+  onChange={[Function]}
+  onCloseResetsInput={true}
+  onSelectResetsInput={true}
+  openOnClick={true}
+  optionComponent={[Function]}
+  options={
+    Array [
+      Object {
+        "label": "url",
+        "value": "url",
+      },
+      Object {
+        "label": "youtube",
+        "value": "youtube",
+      },
+      Object {
+        "label": "facebook",
+        "value": "facebook",
+      },
+    ]
+  }
+  pageSize={5}
+  placeholder="Sources to filter by..."
+  removeSelected={true}
+  required={false}
+  rtl={false}
+  scrollMenuIntoView={true}
+  searchable={true}
+  simpleValue={false}
+  tabSelectsValue={true}
+  trimFilter={true}
+  value={Array []}
+  valueComponent={[Function]}
+  valueKey="value"
+/>
+`;

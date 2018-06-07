@@ -1,0 +1,29 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "stage-0",
+    [
+      "env",
+      {
+        "loose": true,
+        "useBuiltIns": true,
+        "targets": {
+          "browsers": [
+            "Android >= 5",
+            "iOS >= 10",
+            "ChromeAndroid >= 54",
+            "ChromeAndroid >= 54",
+            "UCAndroid >= 11"
+          ]
+        }
+      }
+    ]
+  ],
+  "env": {
+    "test": {
+      "presets": ["env", "react", "stage-0"]
+    }
+  },
+  "plugins": ["transform-object-rest-spread", "transform-class-properties", "syntax-dynamic-import", "transform-runtime"]
+}

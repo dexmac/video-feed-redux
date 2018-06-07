@@ -1,0 +1,16 @@
+os:
+  - linux
+  - osx
+language: node_js
+node_js:
+  - "8"
+sudo: false
+dist: trusty
+env:
+  - NODE_ENV=PROD
+install:
+  - npm install
+script:
+  - npm run build
+after_script:
+- "npm install coveralls && cat ./coverage/lcov.info | coveralls"

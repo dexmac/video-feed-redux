@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly && matches snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <div
+    className="App"
+  >
+    <NavigationBar
+      brand="Video Feed"
+    />
+    <Connect(VideoFeedManager) />
+  </div>
+</Provider>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoItemHeader renders correctly && matches snapshot 1`] = `
+<div
+  className="video-item-header"
+>
+  <VideoItemTitle
+    className="video-item-title"
+    title=""
+  />
+  <VideoItemViewsNumber
+    className="video-item-views-number"
+  />
+</div>
+`;

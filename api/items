@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "title": "Big Buck Bunny",
+      "type": "video",
+      "source": "url",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "views": 8820,
+      "id": 1
+    },
+    {
+      "title": "Subaru Outback",
+      "type": "video",
+      "source": "url",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+      "views": 25560867,
+      "id": 2
+    },
+    {
+      "title": "Chromecast",
+      "type": "video",
+      "source": "url",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+      "views": 4287171,
+      "id": 3
+    },
+    {
+      "title": "Be a winner!",
+      "type": "video",
+      "source": "youtube",
+      "videoId": "I33u_EHLI3w",
+      "views": 12451409,
+      "id": 4
+    },
+    {
+      "title": "How to prepare a great beer",
+      "type": "video",
+      "source": "facebook",
+      "videoId": "1052114818157758",
+      "views": 4569654,
+      "id": 5
+    }
+  ]
+}
+
+

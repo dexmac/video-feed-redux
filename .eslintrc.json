@@ -1,0 +1,11 @@
+{
+  "extends": "prettier",
+  "parser": "babel-eslint",
+  "rules": {
+    "class-methods-use-this": 0,
+    "react/jsx-filename-extension": 0
+  },
+  "env": {
+    "browser": true
+  }
+}

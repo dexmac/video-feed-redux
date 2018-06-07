@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoItem renders correctly && matches snapshot 1`] = `
+<div
+  className="video-item"
+>
+  <VideoItemHeader
+    title=""
+  />
+  <div
+    className="player-wrapper"
+  >
+    <ReactPlayer
+      className="react-player"
+      config={
+        Object {
+          "file": Object {
+            "attributes": Object {
+              "autoPlay": "true",
+              "muted": "true",
+            },
+          },
+        }
+      }
+      controls={false}
+      height="100%"
+      key="null"
+      loop={true}
+      muted={true}
+      onBuffer={[Function]}
+      onDuration={[Function]}
+      onEnded={[Function]}
+      onError={[Function]}
+      onPause={[Function]}
+      onPlay={[Function]}
+      onProgress={[Function]}
+      onReady={[Function]}
+      onSeek={[Function]}
+      onStart={[Function]}
+      playbackRate={1}
+      playing={true}
+      playsinline={true}
+      progressInterval={1000}
+      style={Object {}}
+      url={null}
+      volume={null}
+      width="100%"
+      wrapper="div"
+    />
+  </div>
+</div>
+`;

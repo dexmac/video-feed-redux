@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationBar renders correctly && matches snapshot 1`] = `
+<Uncontrolled(Navbar)
+  bsStyle="default"
+>
+  <NavbarHeader>
+    <NavbarBrand>
+      <div
+        className="navbar-brand"
+      />
+    </NavbarBrand>
+  </NavbarHeader>
+</Uncontrolled(Navbar)>
+`;
