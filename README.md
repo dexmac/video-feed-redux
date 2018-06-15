@@ -31,9 +31,6 @@ The video feed can then be filtered by the type.
 ## Installation
    - clone the repository / open zip file and enter project directory
    - `yarn (/npm) install`
-   
-<a name="Run"></a>
-## Run
 
 ## Testing
 - `yarn run lint` - Run ESLint for code linting
@@ -44,7 +41,9 @@ The video feed can then be filtered by the type.
 
 More info. and examples for writing unit tests can be found [here](./WRITING_TESTS.md).
 
-### Running the project in a Browser 
+<a name="Run"></a>
+## Running the project in a Browser 
+
 To run the project, inside the root directory, you can run:
 ### `yarn run dev`
 
@@ -108,7 +107,7 @@ Webpack is used to pack the bundle and provides ES6 modules dependency managemen
 ## Supported Browsers
 
 By default the generated project uses the latest version of React.
-Please refer [to the React documentation](https://reactjs.org/docs/react-dom.html#browser-support) for more information about supported browsers.
+Please refer [to the React documentation](https://reactjs.org/docs/react-dom.html#browser-support) for further information about supported browsers.
 
 ## Project Folder Structure
 
