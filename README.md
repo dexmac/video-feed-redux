@@ -14,17 +14,21 @@
 
 ## Intro
 
-A filterable video-feed in React & Redux. 
-Forked and builds on https://www.github.com/dexmac/video-feed.  
-Uses Express as the backend to serve a video feed that is comprised of regular video URLs,  
-Facebook and Youtube videos.  
-The feed can then be filtered by the video type.  
+A filterable video-feed in React & Redux.  
+Forked from and further builds on https://www.github.com/dexmac/video-feed.  
+
+The project uses Express as the backend to serve a video feed that is comprised of - regular video URLs,  
+Facebook & Youtube videos.  
+
+The video feed can then be filtered by the type. 
+
+## Demo  
 
 ![preview](video-feed.gif)
 
 <a name="Install"></a>
 
-## Install
+## Installation
    - clone the repository / open zip file and enter project directory
    - `yarn (/npm) install`
    
@@ -67,7 +71,7 @@ It lints and runs the unit tests and then correctly bundles React in production 
 
 <a name="Contribute"></a>
 
-## Contribute
+## Contributing
 For contribution guidelines, see [Contributing](./CONTRIBUTING.md).
 The PR review process can be found [here](./PR_REVIEW.md).
 
@@ -78,7 +82,7 @@ The PR review process can be found [here](./PR_REVIEW.md).
 - [Supported Browsers](#supported-browsers)
 - [Folder Structure](#folder-structure)
 
-## Stack
+## Tech. Stack
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
@@ -106,7 +110,7 @@ Webpack is used to pack the bundle and provides ES6 modules dependency managemen
 By default the generated project uses the latest version of React.
 Please refer [to the React documentation](https://reactjs.org/docs/react-dom.html#browser-support) for more information about supported browsers.
 
-## Folder Structure
+## Project Folder Structure
 
 ```
 video-feed/
