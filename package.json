@@ -39,6 +39,9 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "cryptiles": ">=4.1.2",
+    "macaddress": ">=0.2.9",
+    "url-parse": ">=1.4.3",
     "webpack-dev-server": ">=3.1.11",
     "react-dev-utils": ">=5.0.2",
     "merge": ">=1.2.1",
